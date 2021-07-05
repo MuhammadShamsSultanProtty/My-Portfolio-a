@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    font-family: 'Yomogi', cursive;
+    font-weight: bolder;
+    font-size: larger;
+    background-color:  rgb(235,248,255);
+}
+h1{
+    font-size: 65px;
+    color: #0984e3;
+}
+p{
+    font-size: 28px;
+    color: rgb(5, 32, 41);
+}
+.orange-color{
+    color: rgb(5, 32, 41);
+}
+.flexiable{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.back-img-top{
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+
+}
+.back-img-middle{
+    background-color: rgb(235,248,255);
+
+}
+.button{
+    font-size: 24px;
+    text-decoration: none;
+    background-image: linear-gradient(#74b9ff ,#0984e3);
+    padding: 20px 40px;
+    color: white;
+    border-radius: 33px;
+}
+.text-center{
+    text-align: center;
+}
+#width-cntrl{
+    width:70%;
+    margin: 0 auto;
+}
+.container{
+    margin-top: 100px;
+    display: flex;
+}
+.common-property{
+    width: 27%;
+    margin-left: 5%;
+    background-color: rgb(165, 212, 238);
+    border-radius: 25px;
+    box-shadow: 7px 7px 29px 9px #686767
+}
+
+.img-property{
+    width: 80%;
+    border-radius: 63px;
+    padding: 0px;
+    margin: 8% 10%;
+}
+.bottom-paragraph{
+    padding: 10%;
+}
+.bottom-heading{
+    padding: 10%;
+    margin-bottom: 100px;
+}
+.last-element{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(165, 212, 238);
+    border-radius: 15px;
+    box-shadow: 7px 7px 29px 9px #686767
+}
+.last-sec{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.last-child{
+    width:30%;
+    margin-left: 2.30%;
+}
+.text-center{
+    text-align: center;
+}
+.foot-style{
+    background-color: rgb(3, 36, 54);
+    
+}
+#color{
+    color: honeydew;
+    padding-bottom: 25px;
+}
