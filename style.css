@@ -30,6 +30,7 @@ p{
 .back-img-top{
     background-image: url(images/Frame\ 57.jpg);
     background-repeat: no-repeat;
+    z-index:auto;
 
 }
 .back-img-middle{
@@ -60,7 +61,7 @@ p{
     margin-left: 5%;
     background-color: rgb(165, 212, 238);
     border-radius: 25px;
-    box-shadow: 7px 7px 29px 9px #686767
+    box-shadow: 7px 7px 29px 9px #686767;
 }
 
 .img-property{
@@ -82,7 +83,7 @@ p{
     margin: 0 auto;
     background-color: rgb(165, 212, 238);
     border-radius: 15px;
-    box-shadow: 7px 7px 29px 9px #686767
+    box-shadow: 7px 7px 29px 9px #686767;
 }
 .last-sec{
     margin-top: 100px;
@@ -102,4 +103,22 @@ p{
 #color{
     color: honeydew;
     padding-bottom: 25px;
+}
+.nav-main{
+    width:100%;
+    background-color: deepskyblue;
+    z-index:0;
+    box-shadow: 0 2px 4px 0 rgba(7, 7, 7, 0.2);
+    border-bottom: 5px solid rgb(18, 18, 136);
+}
+h2{
+    font-weight: bold;
+    margin-left: 5%;
+}
+.outer-div{
+    margin-left: 58%;
+}
+.nav-div{
+    margin-left: 2px;
+    width: 180px;
 }
